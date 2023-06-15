@@ -1,0 +1,13 @@
+<div class="question">
+    <h2 class="question-tag">{{question?.question}}</h2>
+    <ol type="a" class="order-list">
+        <li
+            *ngFor="let item of question?.answears"
+            (click)="onClickAnswear(item)"
+            class="list"
+            [ngClass]="item.marked ? 'marked' : ''"
+        > 
+            {{item.answear}}
+        </li>
+    </ol>
+</div>

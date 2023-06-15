@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>Confirm dialog</h2>
+<mat-dialog-content>
+    Are you sure 
+    <strong>{{ answear.answear }}</strong>
+     is correct?
+</mat-dialog-content>
+<mat-dialog-actions class="buttons">
+    <button mat-raised-button color="primary" (click)="onCLickConfirm()" >Yes</button>
+    <button mat-raised-button color="warn" (click)="onClickCancel()" >No</button>
+</mat-dialog-actions>

@@ -1,0 +1,25 @@
+.question {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+
+    .question-tag {
+        margin-top: 5px;
+    }
+
+    .order-list {
+        padding-left: 20px;
+
+        .list {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .marked {
+            color: red
+        }
+    }
+}

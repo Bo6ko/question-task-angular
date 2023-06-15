@@ -1,0 +1,25 @@
+.nav {
+    background: #e3e3e3;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    .btn {
+        border-radius: 3px;
+        padding: 5px 15px;
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        margin-right: 20px;
+    }
+
+    .btn:hover {
+        background-color: #d0d0d0;
+        transition: 0.5s;
+    }
+}
